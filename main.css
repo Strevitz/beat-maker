@@ -24,8 +24,8 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: -webkit-gradient(linear, left top, left bottom, from(white), color-stop(white), to(#666666));
-  background: linear-gradient(white, white, #666666);
+  background: -webkit-gradient(linear, left top, left bottom, from(#9fcfeb), color-stop(white), to(white));
+  background: linear-gradient(#9fcfeb, white, white);
 }
 
 header h1 {
@@ -39,12 +39,13 @@ header p {
 }
 
 .pads {
-  background: lightblue;
+  background: white;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   z-index: 10;
+  padding-bottom: 10px;
 }
 
 .pads > div {
@@ -53,6 +54,7 @@ header p {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
+  border-radius: 30%;
 }
 
 .pad1 {
